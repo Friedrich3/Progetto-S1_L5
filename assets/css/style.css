@@ -1,9 +1,11 @@
 html,
 body {
-  width: 500px;
+    min-width:350px ;
+  max-width: 500px;
   font-size: 1.2rem;
   line-height: 1.65rem;
   font-family: "Open Sans", sans-serif;
+  color: #393d41 ;
 }
 .text-align {
   text-align: center;
@@ -17,7 +19,7 @@ h3 {
 header {
   background-color: black;
   text-align: center;
-  height: 10%;
+  height: 20%;
   box-sizing: content-box;
 }
 header div {
@@ -28,18 +30,18 @@ header div {
 }
 #logo {
   width: 25%;
-  padding: 1.2rem 0;
+  padding: 1.5rem 0;
 }
 
 #section-uno {
   background-image: url("../img/banner.jpg");
+  max-width: 500px;
   background-size: cover;
-  background-size: contain;
-  background-size: 135%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 30%;
   padding: 10% 12%;
+  box-sizing: border-box;
 }
 h1 {
   padding: 10%;
@@ -69,14 +71,24 @@ h1 {
   margin-right: auto;
   text-align: center;
 }
+
 #notebook {
   border-radius: 50%;
+  width: 90%;
+  
 }
+#section-due , #notebook{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 
+}
+#section-due h3{
+padding: 1rem 0%;
+}
 #section-tre {
   background-color: #e22d0e;
   color: white;
-  height: 30vh;
+  height: 30%;
   padding: 0% 12%;
   padding-top: 12%;
 }
@@ -101,7 +113,7 @@ h1 {
 }
 
 .aside-div {
-  width: 90%;
+  width: 89%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -112,6 +124,16 @@ h1 {
 }
 .aside-picture {
   width: 100%;
+}
+.aside-text{
+    padding-bottom: 10%;
+    line-height: 1.65;
+}
+.aside-text h3{
+padding-top: 5%;
+}
+.aside-text p{
+    padding: 3% 5%;
 }
 
 footer {
