@@ -85,12 +85,14 @@ h1 {
 #section-due h3{
 padding: 1rem 0%;
 }
+.section-due-div p{
+    padding: 0% 5%;
+}
 #section-tre {
   background-color: #e22d0e;
   color: white;
   height: 30%;
-  padding: 0% 12%;
-  padding-top: 12%;
+  padding: 12% 5%;
 }
 #section-tre h2 {
   font-family: "Montserrat", serif;
@@ -139,4 +141,33 @@ padding-top: 5%;
 footer {
   background-color: #25a2c3;
   color: white;
+}
+footer h2{
+    font-family: "Montserrat", serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-top: 10%;
+}
+#references{
+    padding-top: 6%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #c8e7f0;
+    padding-bottom: 6%;
+}
+.links{
+    color:#c8e7f0;
+
+}
+.icons{
+    color: white;
+}
+#copyright{
+    color: #c8e7f0;
+    border-top: 1px solid #c8e7f0;
+    padding-top: 6%;
+    padding-bottom: 12%;
+    margin: 0% 20%;
+
+    font-size: 0.8rem;
 }
