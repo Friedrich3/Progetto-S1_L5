@@ -1,13 +1,18 @@
 html,
 body {
   width: 500px;
+  font-size: 1.2rem;
+  line-height: 1.65rem;
+  font-family: "Open Sans", sans-serif;
 }
 .text-align {
   text-align: center;
 }
-.text-align h3,h1{
-    color: #25a2c3;
-    font-
+.text-align h1,
+h3 {
+  color: #25a2c3;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
 }
 header {
   background-color: black;
@@ -26,23 +31,90 @@ header div {
   padding: 1.2rem 0;
 }
 
-
 #section-uno {
   background-image: url("../img/banner.jpg");
   background-size: cover;
- background-size: contain;
+  background-size: contain;
   background-size: 135%;
   background-position: center;
   background-repeat: no-repeat;
   height: 30vh;
   padding: 10% 12%;
 }
-#div-section-uno{
-    padding: 25% 0;
-    padding-top: auto;
-    padding-bottom: auto;
+h1 {
+  padding: 10%;
+  font-size: 2.1rem;
+}
+#div-section-uno {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+#button {
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: white;
+  margin-top: 2.5rem;
+  padding: 0.5rem;
+  background-color: #f04c2f;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 5% 10%;
+  cursor: pointer;
+}
+
+.main-section {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#notebook {
+  border-radius: 50%;
+}
+
+#section-tre {
+  background-color: #e22d0e;
+  color: white;
+  height: 30vh;
+  padding: 0% 12%;
+  padding-top: 12%;
+}
+#section-tre h2 {
+  font-family: "Montserrat", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 12%;
+}
+#section-tre blockquote {
+  font-style: italic;
+  font-size: 1rem;
+  padding-top: 12%;
+}
+#section-tre p {
+  font-size: 1.3rem;
+  padding-top: 12%;
+}
+#section-tre p:last-child {
+  font-size: 0.8rem;
+  padding-top: 0%;
+}
+
+.aside-div {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid #dee1e3;
+  border-radius: 2%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.aside-picture {
+  width: 100%;
 }
 
 footer {
   background-color: #25a2c3;
+  color: white;
 }
