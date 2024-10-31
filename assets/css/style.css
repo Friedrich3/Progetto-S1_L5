@@ -1,0 +1,48 @@
+html,
+body {
+  width: 500px;
+}
+.text-align {
+  text-align: center;
+}
+.text-align h3,h1{
+    color: #25a2c3;
+    font-
+}
+header {
+  background-color: black;
+  text-align: center;
+  height: 10%;
+  box-sizing: content-box;
+}
+header div {
+  height: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  display: block;
+}
+#logo {
+  width: 25%;
+  padding: 1.2rem 0;
+}
+
+
+#section-uno {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+ background-size: contain;
+  background-size: 135%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  padding: 10% 12%;
+}
+#div-section-uno{
+    padding: 25% 0;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+footer {
+  background-color: #25a2c3;
+}
